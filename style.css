@@ -1,0 +1,30 @@
+.side-bar-data{
+    height: 250px;
+    width: 400px;
+    position: relative;
+    float: right;
+    background-color: lightslategray;
+    margin-right: 20px;
+}
+.blue-bold{
+color: darkblue;
+}
+#research-bold{
+    font-weight: bold;
+}
+.side-bar-research{
+    height: 300px;
+    width: 200px;
+    padding: 0px 7px 0px 7px;
+    position: relative;
+    float: right;
+    background-color: #827d7e;
+}
+.side-bar h4{
+    text-align: center;
+}
+.side-bar p{
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+}
