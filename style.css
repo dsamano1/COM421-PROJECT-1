@@ -1,10 +1,21 @@
+.header{
+    text-align: center;
+}
 .side-bar-data{
     height: 250px;
     width: 400px;
+    padding: 0px 10px 0px 10px;
     position: relative;
     float: right;
-    background-color: lightslategray;
-    margin-right: 20px;
+    background-color: #ACC8E5;
+}
+.side-bar-data2{
+    height: 250px;
+    width: 225px;
+    padding: 15px 10px 0px 10px;
+    position: relative;
+    float: right;
+    background-color: #ACC8E5;
 }
 .blue-bold{
 color: darkblue;
@@ -12,13 +23,21 @@ color: darkblue;
 #research-bold{
     font-weight: bold;
 }
-.side-bar-research{
-    height: 300px;
+.side-bar-realistic{
+    height: 250px;
     width: 200px;
-    padding: 0px 7px 0px 7px;
+    padding: 0px 10px 0px 10px;
     position: relative;
     float: right;
-    background-color: #827d7e;
+    background-color: #ACC8E5;
+}
+#side-bar-realistic2{
+    height: 325px;
+    width: 200px;
+    padding: 0px 10px 0px 10px;
+    position: relative;
+    float: right;
+    background-color: #ACC8E5;
 }
 .side-bar h4{
     text-align: center;
