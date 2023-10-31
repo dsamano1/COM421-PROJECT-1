@@ -1,6 +1,44 @@
 .header{
     text-align: center;
 }
+
+/* Nav */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-tabs{
+    flex: 1;
+    text-align: center;
+}
+.nav-tabs ul{
+    list-style: none;
+}
+.nav-tabs ul li {
+    padding-right: 15px;
+    display: inline-block;
+}
+.nav-tabs ul li a {
+    font-size: 120%;
+    text-decoration: none;
+    position: relative;
+}
+/* Hovering Effect */
+.nav-tabs ul li a::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    opacity: 0;
+}
+.nav-tabs ul li a:hover::after{
+    opacity: 1;
+}
+/* Side Bar Style */
 .side-bar-data{
     height: 250px;
     width: 400px;
