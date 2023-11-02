@@ -40,8 +40,8 @@ nav{
 }
 /* Side Bar Style */
 .side-bar-data{
-    height: 250px;
-    width: 400px;
+    height: 400px;
+    width: 225px;
     padding: 0px 10px 0px 10px;
     position: relative;
     float: right;
@@ -54,12 +54,6 @@ nav{
     position: relative;
     float: right;
     background-color: #ACC8E5;
-}
-.blue-bold{
-color: darkblue;
-}
-#research-bold{
-    font-weight: bold;
 }
 .side-bar-realistic{
     height: 250px;
@@ -85,3 +79,11 @@ color: darkblue;
     padding-left: 2px;
     padding-right: 2px;
 }
+
+/* Blue Bold Effect */
+.blue-bold{
+    color: darkblue;
+    }
+    #research-bold{
+        font-weight: bold;
+    }
